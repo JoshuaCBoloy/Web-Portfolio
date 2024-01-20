@@ -1,246 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- --------- UNICONS ---------- -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
-    <!-- --------- CSS ---------- -->
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- --------- FAVICON ---------- -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-
-    <title>Web Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua's Web Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-   <div class="container">
-    <!-- --------------- HEADER --------------- -->
-      <nav id="header">
-        <div class="nav-logo">
-            <p class="nav-name">Jash</p>
-            <span></span>
+    <div id="page" class="site">
+      <header>
+        <div class="logo"><a href="#"><i class="ri-basketball-line"></i></a></div>
+        <div class="socials has-hover">
+          <ul class="up animate">
+            <li><a href="https://www.facebook.com/Its.Jaaash/"><i class="ri-facebook-line"></i></a></li>
+            <li><a href="https://www.instagram.com/_jaaaaash/"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/joshua-boloy-8248292ab/"><i class="ri-linkedin-line"></i></a></li>
+            <li><a href="https://github.com/JoshuaCBoloy"><i class="ri-github-line"></i></a></li>
+          </ul>
         </div>
-        <div class="nav-menu" id="myNavMenu">
-            <ul class="nav_menu_list">
-                <li class="nav_list">
-                    <a href="#home" class="nav-link active-link">Home</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#about" class="nav-link">About</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#projects" class="nav-link">Projects</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#contact" class="nav-link">Contact</a>
-                    <div class="circle"></div>
-                </li>
-            </ul>
-        </div>
-      </nav>
+      </header>
+      <div class="wrapper">
+        <main>
+          <nav>
+            <div class="container">
+              <div class="menu has-hover">
+                <ul class="left animate">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#contacts">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="daynight">
+                <input type="checkbox" id="dmswitcher">
+                <label for="dmswitcher">
+                  <i class="dark ri-moon-line"></i>
+                  <i class="light ri-sun-line"></i>
+                </label>
+              </div>
+              <a href="#" class="menu-trigger mobile-only">
+                <i class="ri-menu-3-line"></i>
+              </a>
+            </div>
+          </nav>
+
+          <div class="hero">
+            <div class="container">
+              <div class="wrapper">
+                <div class="image down animate">
+                  <img src="images/jash1.png" alt="">
+                </div>
+                <div class="text-top left animate">
+                  <div class="text-top">
+                    <h1><span>Hello!<br></span>I am Joshua Boloy</h1>
+                    <p>I have a good grasp of HTML, CSS, and JavaScript, along with proficiency in various modern <br>frameworks and libraries that enable me to incorporate interactive elements. <br>Furthermore, I have hands-on experience with content management systems <br>(CMS) such as WordPress.</p>
+                    <a href="#" class="button">What I am</a>
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+                  <div class="text-bottom">
+                    <ul class="down animate">
+                        <li>
+                            <strong>Email</strong>
+                            <a href="mailto:instajoshua04@gmail.com">instajoshua04@gmail.com</a>
+                        </li>
+
+                        <li>
+                            <strong>Phone</strong>
+                            <a href="tel:+639453051093">+639453051093</a>
+                      </li>
+
+                      <li>
+                          <strong>Address</strong>
+                          <a href="#">Baguio City</a>
+                    </li>
+
+                    </ul>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- END OF HERO HTML -->
+
+          <div class="service" id="service">
+            <div class="container">
+              <div class="wrapper center down animate">
+                <div class="head">
+                  <h2>Service</h2>
+                </div>
+                <ul>
+                  <li>
+                      <i class="ri-terminal-window-line"></i>
+                      <h3>Frontend</h3>
+                      <p>I know a bit about frontend stuff, just getting started though. Still figuring out how to make things look cool on the web!<p>
+                  </li>
+                  <li>
+                      <i class="ri-code-box-line"></i>
+                      <h3>Backend</h3>
+                      <p>I possess foundational knowledge in backend development, demonstrating a beginner's proficiency as I acquaint myself with the essential aspects of server-side operations. My commitment to continuous learning fuels my aspiration to delve deeper into the intricacies of building resilient and efficient backend systems.<p>
+                  </li>
+                  <li>
+                      <i class="ri-macbook-line"></i>
+                      <h3>UI / UX</h3>
+                      <p>
+                        I possess some basic knowledge in UI/UX design, just starting out on the journey to understand the ins and outs of creating user-friendly and visually appealing digital experiences. Excited to learn more and refine my skills in this field!<p>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- END OF SERVICE -->
+
+          <div class="skills">
+            <div class="container">
+              <div class="wrapper center up animate">
+                <div class="head">
+                  <h2>My Skills</h2>
+                  <p>
+                    I'm familiar with HTML, CSS, and JavaScript, confidently navigating the basics of web development. My understanding of these languages allows me to create simple yet effective websites and bring a touch of interactivity to online projects.</p>
+                </div>
+                <ul>
+                  <!-- CSS -->
+                  <li class="css">
+                    <div class="circle animate">
+                      <svg>
+                        <defs>
+                          <linearGradient id="gradientcss" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="var(--csscolor)" />
+                            <stop offset="100%" stop-color="#b3eBff" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="70" cy="70" r="70" stroke="url(#gradientcss)"></circle>
+                      </svg>
+                      <div class="inside">
+                        <span>75%</span>
+                        <div class="dot"></div>
+                      </div>
+                    </div>
+                    <h4>CSS</h4>
+                  </li>
+                  <!-- HTML -->
+                  <li class="html">
+                    <div class="circle animate">
+                      <svg>
+                        <defs>
+                          <linearGradient id="gradienthtml" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="var(--htmlcolor)" />
+                            <stop offset="100%" stop-color="#fcddb5" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="70" cy="70" r="70" stroke="url(#gradienthtml)"></circle>
+                      </svg>
+                      <div class="inside">
+                        <span>80%</span>
+                        <div class="dot"></div>
+                      </div>
+                    </div>
+                    <h4>HTML</h4>
+                  </li>
+                  <!-- JS -->
+                  <li class="js">
+                    <div class="circle animate">
+                      <svg>
+                        <defs>
+                          <linearGradient id="gradientjs" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="var(--jscolor)" />
+                            <stop offset="100%" stop-color="#b3eBff" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="70" cy="70" r="70" stroke="url(#gradientjs)"></circle>
+                      </svg>
+                      <div class="inside">
+                        <span>60%</span>
+                        <div class="dot"></div>
+                      </div>
+                    </div>
+                    <h4>Javascript</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+           <!-- END OF SKILLS -->
 
 
-    <!-- -------------- MAIN ---------------- -->
-    <main class="wrapper">
-       <!-- -------------- FEATURED BOX ---------------- -->
-       <section class="featured-box" id="home">
-          <div class="featured-text">
-            <div class="featured-text-card">
-                <span>Joshua Boloy</span>
+           <section class="education" id="education">
+            <div class="top-header down animate">
+              <style>
+                h2 {
+                    text-align: center;
+                    padding-bottom: 5%;
+                    padding-top: 10%;
+                }
+            </style>
+                <h2>Education</h2>
+                <div class="education-row">
+                    <div class="education-column">
+                        <div class="education-box">
+    
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2009 - 2015</div>
+                                    <h3>Primary - Josefa Cariño Elementary School</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eaque, consequatur labore voluptatem dolor culpa autem atque consequuntur totam officiis.</p>
+                                </div>
+                            </div>
+    
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2015 - 2019</div>
+                                    <h3>Junior High School - Pines City National High School</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eaque, consequatur labore voluptatem dolor culpa autem atque consequuntur totam officiis.</p>
+                                </div>
+                            </div>
+    
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+                                    <h3>Senior High School - Data Center College of the Philippines</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eaque, consequatur labore voluptatem dolor culpa autem atque consequuntur totam officiis.</p>
+                                </div>
+                            </div>
+    
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2024</div>
+                                    <h3>College - University of the Cordilleras</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae eaque, consequatur labore voluptatem dolor culpa autem atque consequuntur totam officiis.</p>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="featured-name">
-                <p>Hello! I am <span class="typedText"></span></p>
-            </div>
-            <div class="featured-text-info">
-                <p>Experienced frontend developer with a passion for creating visually stunning
-                   and user-friendly websites.
+           </section>
+
+
+          <div class="contact" id="contacts">
+    <div class="container">
+        <div class="wrapper">
+            <form action="" class="left animate">
+                <div class="head">
+                    <h2>Get in Touch</h2>
+                </div>
+                <p>
+                    <label>Your Name:</label>
+                    <input type="text" placeholder="Joshua Boloy">
                 </p>
-            </div>
-            <div class="social_icons">
-                <div class="icon"><a href="https://instagram.com/_jaaaaash/" target="_blank"><i class="uil uil-instagram"></i></a></div>
-                <div class="icon"><a href="https://www.linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
-                <div class="icon"><a href="https://facebook.com/Its.Jaaash/" target="_blank"><i class="uil uil-facebook"></i></a></div>
-                <div class="icon"><a href="https://github.com/Jashqtieee" target="_blank"><i class="uil uil-github-alt"></i></a></div>
-            </div>
-            
-          </div>
-          <div class="featured-image">
-            <div class="image">
-                <img src="images/profile.jpg" alt="avatar">
-            </div>
-          </div>
-          <div class="scroll-icon-box">
-            <a href="#about" class="scroll-btn">
-                <i class="uil uil-mouse-alt"></i>
-                <p>Scroll Down</p>
-            </a>
-          </div>
 
-       </section>
-       <!-- -------------- ABOUT BOX ---------------- -->
-       <section class="section" id="about">
-          <div class="top-header">
-            <h1>About Me</h1>
-          </div>
-          <div class="row">
-            <div class="col">
-                <div class="about-info">
-                    <h3>About Me</h3>
-                    <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
-                       frameworks and libraries,which allows me to implement interactive features.
-                       Additionally, I have experirence working with content management systems (CMS) like
-                       WordPress.
-                    </p>
-                    <div class="about-btn">
-                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
-                    </div>
-                </div>
+                <p>
+                    <label>Your Email:</label>
+                    <input type="email" placeholder="e.g instajoshua04@gmail.com">
+                </p>
+
+                <p>
+                    <label>Subject:</label>
+                    <input type="text" placeholder="Headline topic to discuss">
+                </p>
+
+                <p>
+                    <label>Message:</label>
+                    <textarea cols="30" rows="10" placeholder="Your Message ..."></textarea>
+                </p>
+
+                <p>
+                    <button class="button">Send</button>
+                </p>
+            </form>
+            <div class="text-right right animate">
+                <ul>
+                    <li>
+                        <span>Location:</span>
+                        <p>Baguio City</p>
+                    </li>
+                    <li>
+                        <span>Phone:</span>
+                        <p>
+                            <a href="https://wa.me/+639453051093">639453051093</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span>How can we work?</span>
+                        <p>We make collaboration seamless. Explore our range of services, reach out through our form, and let's start a conversation. Together, we can turn your ideas into successful projects</p>
+                    </li>
+                </ul>
             </div>
-            <div class="col">
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Frontend</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Bootstrap</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Backend</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>PHP</span>
-                        <span>JAVA</span>
-                        <span>Python</span>
-                        <span>C++</span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Database</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>MySQL</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-       </section>
-
-       <!-- -------------- PROJECT BOX ---------------- -->
-
-       <section class="section" id="projects">
-          <div class="top-header">
-              <h1>Projects</h1>
-          </div>
-          <div class="project-container">
-            <div class="project-box">
-                <i class="uil uil-briefcase-alt"></i>
-                <h3>Completed</h3>
-                <label>15+ Finished Projects</label>
-            </div>
-            <div class="project-box">
-                <i class="uil uil-users-alt"></i>
-                <h3>Clients</h3>
-                <label>25+ Happy Clients</label>
-            </div>
-            <div class="project-box">
-                <i class="uil uil-award"></i>
-                <h3>Experience</h3>
-                <label>7+ Years in the field</label>
-            </div>
-          </div>
-       </section>
-
-       <!-- -------------- CONTACT BOX ---------------- -->
-
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Get in touch</h1>
-            <span>Do you have a project in your mind, contact me here</span>
-          </div>
-          <div class="row">
-             <div class="col">
-                <div class="contact-info">
-                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: instajoshua04@gmail.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: 0945 305 1093</p>
-                </div>
-             </div>
-             <div class="col">
-                <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Name">
-                        <input type="text" class="input-field" placeholder="Email">
-                    </div>
-                    <div class="text-area">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-button">
-                        <button class="btn">Send <i class="uil uil-message"></i></button>
-                    </div>
-                </div>
-             </div>
-          </div>
-       </section>
-
-    </main>
-
-
-    <!-- --------------- FOOTER --------------- -->
-    <footer>
-        <div class="top-footer">
-            <p>Joshua Boloy</p>
         </div>
-        <div class="middle-footer">
-            <ul class="footer-menu">
-                <li class="footer_menu_list">
-                    <a href="#home">Home</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#about">About</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#projects">Projects</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-social-icons">
-            <div class="icon"><a href="https://instagram.com/_jaaaaash/" target="_blank"><i class="uil uil-instagram"></i></a></div>
-                <div class="icon"><a href="https://www.linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
-                <div class="icon"><a href="https://facebook.com/Its.Jaaash/" target="_blank"><i class="uil uil-facebook"></i></a></div>
-                <div class="icon"><a href="https://github.com/Jashqtieee" target="_blank"><i class="uil uil-github-alt"></i></a></div>
-        </div>
-        <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Joshua Boloy</a> - All rights reserved</p>
-        </div>
-    </footer>
-
     </div>
+          </div>
 
 
-
-
-    <!-- ----- TYPING JS Link ----- -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-       <!-- ----- SCROLL REVEAL JS Link----- -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- ----- MAIN JS ----- -->
+      
+        </main>
+        <footer>
+          <p>Designed by Joshua Boloy</p>
+        </footer>
+      </div>
+    </div>
+    <script src="https://unkpg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
